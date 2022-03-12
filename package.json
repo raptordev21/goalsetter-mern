@@ -4,8 +4,7 @@
   "description": "Goalsetter Web Application",
   "main": "server.js",
   "scripts": {
-    "startwin": "SET NODE_ENV=production & node backend/server.js",
-    "start": "NODE_ENV=production node backend/server.js",
+    "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
